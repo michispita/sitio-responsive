@@ -9,7 +9,7 @@ h2, h5 {
 
 .carousel {
     background-color: aqua;
-    transition: transform 2s;
+    transition: 0.5s; /*buscar como modificar la transicion del carusel y no del color*/
     width: 20%;
     margin: auto;
 }
