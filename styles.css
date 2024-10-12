@@ -2,17 +2,25 @@
     background-color: rgba(177, 31, 92, 0.164);
 }
 
+.nav-item {
+    margin: 0.2rem 2rem 0.2rem 2rem;
+}
+
+.title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 h2, h5 {
     text-align: center;
     color: rgb(184, 30, 94);
 }
 
 .carousel {
-    background-color: aqua;
-    transition: 0.5s; /*buscar como modificar la transicion del carusel y no del color*/
     width: 20%;
-    margin: auto;
+    margin: auto auto 1rem auto;
 }
+
 
 .col {
     background-color: rgba(177, 31, 92, 0.164);
