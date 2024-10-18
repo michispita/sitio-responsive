@@ -39,16 +39,17 @@
               </li>
 
                 <!-- Dropdown de Opciones -->
-              <li class="nav-item d-lg-none"> <!--visible solo en sm y md, oculto en lg-->
-                <a class="nav-link toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <li class="nav-item dropdown d-lg-none"> <!--visible solo en sm y md, oculto en lg-->
+                <a class="nav-link dropdown" href="#" role="button" id="Opciones-menu-item" data-bs-toggle="dropdown">
                     Opciones
                 </a>
-                <ul class="dropdown-menu dropdown-menu-end">
+
+                <ul class="dropdown-menu" aria-labelledby="Opciones-menu-item">
                   <div class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action">Link 1</a>
-                    <a href="#" class="list-group-item list-group-item-action">Link 2</a>
-                    <a href="#" class="list-group-item list-group-item-action">Link 3</a>
-                    <a href="#" class="list-group-item list-group-item-action">Link 4</a>
+                    <li><a href="#" class="list-group-item list-group-item-action">Link 1</a></li>
+                    <li><a href="#" class="list-group-item list-group-item-action">Link 2</a></li>
+                    <li><a href="#" class="list-group-item list-group-item-action">Link 3</a></li>
+                    <li><a href="#" class="list-group-item list-group-item-action">Link 4</a></li>
                   </div>
                 </ul>
               </li>
